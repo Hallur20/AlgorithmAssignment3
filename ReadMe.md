@@ -37,3 +37,5 @@
 <h2>our original choice for sorting the queue was the "max heap sort" because of it being the fastest in a non-unique list. However
   under the development we ran into some challenges as for example: swapping and finding the parent (we fixed it later but not fully, and this is where we decided to give up on the algorithm). We then moved on to insertition-sort, which was the next fastest algorithm in a non-unique list.
   </2>
+  
+  <h2>we have hard-coded 50 random passengers in a list, which we then sort with our algorithm. The reason we have not used the template as much as we could have, is that we could not understand the system in areas such as: the tail of the queue, the head of the queue (we tried using these in our algorithm), the clock system etc.</h2>
