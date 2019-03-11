@@ -3,7 +3,7 @@
 <h2>How did we prioritize?</h2>
 
 <p>We decided to make our own method that checks the category of a passenger instead of the comapareTo. The reason we have not
-used the compareTo in passenger.java is that we were unsure if we should make any changes in the package the file was located in.</p>
+used the compareTo in <a href="https://github.com/datsoftlyngby/soft2019spring-algorithms/blob/master/Weeklies/Week_09/Assignment_03/Airport_Queue_template/src/main/java/dk/cphbusiness/airport/template/Passenger.java">passenger.java </a> is that we were unsure if we should make any changes in the package the file was located in.</p>
 
 <h3>We have pritoritized the passengers in these levels:</h3>
 
