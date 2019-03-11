@@ -9,7 +9,7 @@
   <li>Monkey 5</li>
 </ul>
 
-<h2>we decided to make our own method that checks the category of a passenger and returns it's priority</h2>
+<h2>we decided to make our own method that checks the category of a passenger and returns it's priority:</h2>
 
 ```java
 @Override
@@ -32,3 +32,7 @@
         return 0;
     }
 ```
+
+<h2>our original choice for sorting the queue was the "max heap sort" because of it being the fastest in a non-unique list. However
+  under the development we ran into some challenges as for example: swapping and finding the parent (we fixed it later but not fully, and this is where we decided to give up on the algorithm). We then moved on to insertition-sort, which was the next fastest algorithm in a non-unique list.
+  </2>
