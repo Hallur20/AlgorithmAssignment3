@@ -38,7 +38,7 @@ used the compareTo in passenger.java is that we were unsure if we should make an
 ```
 <h1>Algorithm choice</h1>
 <p>We decided to use the "max heap sort" to start with, because it is the fastest way to sort an non-unique list. However
-  under the development we ran into some challenges as for example: swapping and finding the parent (we fixed it later but not fully, and this is where we decided to give did not continued developing the "max heap sort" algorithm). That was the reason we moved on to the "insertition-sort" instead, which was the next fastest algorithm in a non-unique list.
+  under the development we ran into some challenges as for example: swapping and finding the parent (we fixed it later but not fully, and this is where we decided to give did not continued developing the "max heap sort" algorithm). That was the reason we moved on to the <a href="https://github.com/Hallur20/AlgorithmAssignment3/blob/master/NotPrioritisingPassengerArrayQueue.java">insertitionSort</a> instead, which was the next fastest algorithm in a non-unique list.
   </p>
   
   <h1>Setup</h1>
