@@ -1,5 +1,10 @@
 <h1 align="center">Airport Queueing<h1>
 
+<h1>Algorithm choice</h1>
+<p>We decided to use the "max heap sort" to start with, because it is the fastest way to sort an non-unique list. However
+  under the development we ran into some challenges as for example: swapping and finding the parent (we fixed it later but not fully, and this is where we decided to give did not continued developing the "max heap sort" algorithm). That was the reason we moved on to the <a href="https://github.com/Hallur20/AlgorithmAssignment3/blob/master/NotPrioritisingPassengerArrayQueue.java">insertitionSort</a> instead, which was the next fastest algorithm in a non-unique list.
+  </p>
+
 <h1>How did we prioritize?</h1>
 
 <p>We decided to make our own method that checks the category of a passenger instead of the comapareTo. The reason we have not
@@ -51,11 +56,6 @@ used the compareTo in <a href="https://github.com/datsoftlyngby/soft2019spring-a
         return 0;
     }
 ```
-
-<h1>Algorithm choice</h1>
-<p>We decided to use the "max heap sort" to start with, because it is the fastest way to sort an non-unique list. However
-  under the development we ran into some challenges as for example: swapping and finding the parent (we fixed it later but not fully, and this is where we decided to give did not continued developing the "max heap sort" algorithm). That was the reason we moved on to the <a href="https://github.com/Hallur20/AlgorithmAssignment3/blob/master/NotPrioritisingPassengerArrayQueue.java">insertitionSort</a> instead, which was the next fastest algorithm in a non-unique list.
-  </p>
   
   <h1>Setup</h1>
   
