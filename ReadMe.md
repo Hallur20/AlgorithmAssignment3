@@ -9,7 +9,8 @@
   <li>Monkey 5</li>
 </ul>
 
-<h2>we decided to make our own method that checks the category of a passenger and returns it's priority:</h2>
+<h2>we decided to make our own method that checks the category of a passenger and returns it's priority. The reason we have not
+ used the compareTo in passenger.java is that we were unsure if we should make any changes in the package the file was located in.</h2>
 
 ```java
 @Override
