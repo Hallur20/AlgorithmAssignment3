@@ -5,16 +5,30 @@
 <p>We decided to make our own method that checks the category of a passenger instead of the comapareTo. The reason we have not
 used the compareTo in <a href="https://github.com/datsoftlyngby/soft2019spring-algorithms/blob/master/Weeklies/Week_09/Assignment_03/Airport_Queue_template/src/main/java/dk/cphbusiness/airport/template/Passenger.java">passenger.java </a> is that we were unsure if we should make any changes in the package the file was located in.</p>
 
-<h3>We have pritoritized the passengers in these levels:</h3>
+<h3>Priorities:</h3>
 
-<ul>
-  <li>LateForFlight 1</li>
-  <li>Disabled 2</li>
-  <li>BusinessClass 3</li>
-  <li>Family 4</li>
-  <li>Monkey 5</li>
-</ul>
-
+ <table>
+<thead>
+<tr>
+<th align="left"><strong>Passengers</strong></th>
+<th align="center">LateForFlight</th>
+<th align="center">Disabled</th>
+<th align="center">BusinessClass</th>
+<th align="center">Family</th>
+  <th align="center">Monkey</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><strong>Priority</strong></td>
+<td align="center">1</td>
+<td align="center">2</td>
+<td align="center">3</td>
+<td align="center">4</td>
+ <td align="center">5</td>
+</tr>
+</tbody>
+</table>
 ```java
 @Override
     public int getPriority(Category category) {
@@ -44,31 +58,3 @@ used the compareTo in <a href="https://github.com/datsoftlyngby/soft2019spring-a
   <h1>Setup</h1>
   
   <p>We have hard-coded 50 random passengers in a list, which we then sort with our algorithm. The reason we have not used the template as much as we could have, is that we could not understand the system in areas such as: the tail of the queue, the head of the queue (we tried using these in our algorithm), the clock system etc.</p>
-  
-  
-  
-  
-  <table>
-<thead>
-<tr>
-<th align="left"><strong>Passengers</strong></th>
-<th align="center">LateForFlight</th>
-<th align="center">Disabled</th>
-<th align="center">BusinessClass</th>
-<th align="center">Family</th>
-  <th align="center">Monkey</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left"><strong>Pritority</strong></td>
-<td align="center">1</td>
-<td align="center">2</td>
-<td align="center">3</td>
-<td align="center">4</td>
- <td align="center">5</td>
-</tr>
-</tbody>
-</table>
-  
-  
