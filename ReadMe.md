@@ -1,4 +1,4 @@
-<h1>made by: Hallur við Neyst / Murched Kayed / Mohammad Saad</h1>
+<h1>Airport Queueing</h1>
 
 <h1>passengers priorities</h1>
 <h2>We have pritoritized the passengers in these levels:</h2>
@@ -10,9 +10,10 @@
   <li>Monkey 5</li>
 </ul>
 
-<h1>how did we prioritize?</h1>
-<h2>we decided to make our own method that checks the category of a passenger and returns it's priority. The reason we have not
- used the compareTo in passenger.java is that we were unsure if we should make any changes in the package the file was located in.</h2>
+<h1>How did we prioritize?</h1>
+
+<p>We decided to make our own method that checks the category of a passenger instead of the comapareTo. The reason we have not
+ used the compareTo in passenger.java is that we were unsure if we should make any changes in the package the file was located in.</p>
 
 ```java
 @Override
@@ -36,8 +37,10 @@
     }
 ```
 <h1>Algorithm choice</h1>
-<h2>Our original choice for sorting the queue was the "max heap sort" because of it being the fastest in a non-unique list. However
-  under the development we ran into some challenges as for example: swapping and finding the parent (we fixed it later but not fully, and this is where we decided to give up on the algorithm). We then moved on to insertition-sort, which was the next fastest algorithm in a non-unique list.
-  </2>
-  <h1>Our setup</h1>
-  <h2>we have hard-coded 50 random passengers in a list, which we then sort with our algorithm. The reason we have not used the template as much as we could have, is that we could not understand the system in areas such as: the tail of the queue, the head of the queue (we tried using these in our algorithm), the clock system etc.</h2>
+<p>We decided to use the "max heap sort" to start with, because it is the fastest way to sort an non-unique list. However
+  under the development we ran into some challenges as for example: swapping and finding the parent (we fixed it later but not fully, and this is where we decided to give did not continued developing the "max heap sort" algorithm). That was the reason we moved on to the "insertition-sort" instead, which was the next fastest algorithm in a non-unique list.
+  </p>
+  
+  <h1>Setup</h1>
+  
+  <p>we have hard-coded 50 random passengers in a list, which we then sort with our algorithm. The reason we have not used the template as much as we could have, is that we could not understand the system in areas such as: the tail of the queue, the head of the queue (we tried using these in our algorithm), the clock system etc.</p>
