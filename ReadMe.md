@@ -44,3 +44,31 @@ used the compareTo in <a href="https://github.com/datsoftlyngby/soft2019spring-a
   <h1>Setup</h1>
   
   <p>We have hard-coded 50 random passengers in a list, which we then sort with our algorithm. The reason we have not used the template as much as we could have, is that we could not understand the system in areas such as: the tail of the queue, the head of the queue (we tried using these in our algorithm), the clock system etc.</p>
+  
+  
+  
+  
+  <table>
+<thead>
+<tr>
+<th align="left"><strong>Passengers</strong></th>
+<th align="center">LateForFlight</th>
+<th align="center">Disabled</th>
+<th align="center">BusinessClass</th>
+<th align="center">Family</th>
+  <th align="center">Monkey</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><strong>Pritority</strong></td>
+<td align="center">1</td>
+<td align="center">2</td>
+<td align="center">3</td>
+<td align="center">4</td>
+ <td align="center">5</td>
+</tr>
+</tbody>
+</table>
+  
+  
