@@ -1,4 +1,4 @@
-#Airport Queueing
+# Airport Queueing
 
 <h1>How did we prioritize?</h1>
 
