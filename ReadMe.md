@@ -1,7 +1,12 @@
 <h1>Airport Queueing</h1>
 
-<h1>passengers priorities</h1>
 <h2>We have pritoritized the passengers in these levels:</h2>
+
+<p>We decided to make our own method that checks the category of a passenger instead of the comapareTo. The reason we have not
+used the compareTo in passenger.java is that we were unsure if we should make any changes in the package the file was located in.</p>
+
+<h3>How did we prioritize?</h3>
+
 <ul>
   <li>LateForFlight 1</li>
   <li>Disabled 2</li>
@@ -9,11 +14,6 @@
   <li>Family 4</li>
   <li>Monkey 5</li>
 </ul>
-
-<h1>How did we prioritize?</h1>
-
-<p>We decided to make our own method that checks the category of a passenger instead of the comapareTo. The reason we have not
- used the compareTo in passenger.java is that we were unsure if we should make any changes in the package the file was located in.</p>
 
 ```java
 @Override
